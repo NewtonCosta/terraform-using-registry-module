@@ -1,8 +1,8 @@
 terraform {
     cloud {
-      organization = "organization-name"
+      organization = var.organization
       workspaces {
-        name = "learn-terraform-module-use"
+        name = var.workspace
     }
   }
 /* Uncomment this block to use Terraform Local for this demo

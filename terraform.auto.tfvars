@@ -1,3 +1,14 @@
+variable "organization"{
+  type   = string
+  default = ""
+}
+
+variable "workspace"{
+  type   = string
+  default = ""
+}
+
+
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
