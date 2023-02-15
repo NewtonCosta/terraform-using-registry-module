@@ -24,4 +24,5 @@ In order to compleete this demo, you will need the following:
 - [Terraform Cloud variable set configured with your AWS credentials.](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-create-variable-set)
 
 ### Things that I learn from this demo
-- 
+- Undestand how Terraform registry modules work
+- structuring the terraform code by referecing reusbale module
