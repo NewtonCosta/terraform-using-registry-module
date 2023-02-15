@@ -9,6 +9,8 @@ Quick example on how using AWS Terraform Module from Terraform public registry t
 - NAT gateways 
 - (2) EC2 instances.
 
+![Workflow](flow.jpg "Workflow")
+
 ### Module used
 - [VPC Module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/3.14.0)
 - [EC2-Instance Module](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest)
@@ -23,6 +25,9 @@ In order to compleete this demo, you will need the following:
 - [Terraform Cloud account](https://app.terraform.io/public/signup/account?utm_source=learn)
 - [Terraform Cloud variable set configured with your AWS credentials.](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-create-variable-set)
 
+![Workflow execution result](TFC_run-result.jpg "Workflow execution result")
+
+
 ### Things that I learn from this demo
 - Undestand how Terraform registry modules work
-- structuring the terraform code by referecing reusbale module
+- Structuring the terraform code by referecing reusbale module
