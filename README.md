@@ -20,7 +20,7 @@ For this demo I used Terraform Cloud workflow.[Know more about Terraform Cloud h
 
 In order to compleete this demo, you will need the following:
 
-- Terraform v1.1+ [installed locally](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+ Terraform v1.1+ [installed locally](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 - An [AWS account](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
 - [Terraform Cloud account](https://app.terraform.io/public/signup/account?utm_source=learn)
 - [Terraform Cloud variable set configured with your AWS credentials.](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-create-variable-set)
@@ -28,6 +28,7 @@ In order to compleete this demo, you will need the following:
 ![Workflow execution result](TFC_run-result.jpg "Workflow execution result")
 
 
-### Things that I learn from this demo
-- Undestand how Terraform registry modules work
+### Things that I learn from this demo 💪💪
+- Understand how Terraform registry modules work
 - Structuring the terraform code by referecing reusbale module
+- Integrating Terraform cloud with GitHub
