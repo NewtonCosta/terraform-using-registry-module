@@ -12,7 +12,7 @@ variable "workspace"{
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
-  default     = "example-vpc"
+  default     = "example-vpc-2"
 }
 
 variable "vpc_cidr" {
